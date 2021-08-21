@@ -9,3 +9,4 @@ WiFi : Broadcom BCM94352Z
 Storage : WD Black SN750 SSD NVMe
 
 
+
