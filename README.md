@@ -31,7 +31,7 @@ OpenCore 0.7.1
 <summary><strong>What's working</strong></summary>
 </br>
 
-- [x] Intel UHD 620 Graphics `incuding graphics acceleration`
+- [x] Intel UHD 620 Graphics
 - [x] All USB ports 
 - [x] Internal camera
 - [x] WiFi using [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
