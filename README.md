@@ -1,28 +1,5 @@
 <strong>DELL VOSTRO 3490</strong>
 
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329505-961330b2-3bd5-4e5c-94fa-fd019f874664.jpg">
-</div>
-
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329570-b80f68ca-7685-468c-a1f1-1d74e0d2ad08.jpg">
-</div>
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329583-422d501c-771f-44d8-a45d-7623df5e5cc7.png">
-</div>
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329586-2297cd25-8e1a-44d8-91b4-6ace54459995.png">
-</div>
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329590-91aef3f9-134a-4482-a995-69a9b5c2e758.png">
-</div>
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329592-ff734cb4-ad93-46d2-97cd-66566efffb06.png">
-</div>
-<div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329594-bdc24f92-e9d4-498a-b8b2-006ef676fffe.png">
-</div>
-
 
 <details>  
 <summary><strong>Booter</strong></summary>
@@ -50,8 +27,6 @@ OpenCore 0.7.1
 
 
 </details>
-<strong>Status</strong>
-
 <details>  
 <summary><strong>What's working</strong></summary>
 </br>
@@ -71,4 +46,29 @@ OpenCore 0.7.1
 - [x] Airdrop , Handoff , Sidecar 
 
 </details>
+
+
+
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329505-961330b2-3bd5-4e5c-94fa-fd019f874664.jpg">
+</div>
+
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329570-b80f68ca-7685-468c-a1f1-1d74e0d2ad08.jpg">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329583-422d501c-771f-44d8-a45d-7623df5e5cc7.png">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329586-2297cd25-8e1a-44d8-91b4-6ace54459995.png">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329590-91aef3f9-134a-4482-a995-69a9b5c2e758.png">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329592-ff734cb4-ad93-46d2-97cd-66566efffb06.png">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/131329594-bdc24f92-e9d4-498a-b8b2-006ef676fffe.png">
+</div>
 
