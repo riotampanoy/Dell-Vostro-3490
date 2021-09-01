@@ -15,15 +15,15 @@ OpenCore 0.7.1
 |:-------------------|:-------------------------------------------|
 | Processor          | Intel Core i3-10110U                       |
 | Graphics           | Intel UHD Graphics 620                     |
-| Memory             | 12GB 2133MHz DDR4 * 2                      |
-| Display            | 14"                                        |
-| Storage            | WD Black SN750 SSD NVMe                    |
+| Memory             | 8GB 2666MHz DDR4 Corsair Vengeance         |
+|                    | 4GB 2666MHz DDR4 Hynix                     |
+| Display            | 14" WXGA HD LCD                            |
+| Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
+|                    | MidasForce SSD SATA 250GB (Windows)        |
 | WLAN + Bluetooth   | Broadcom BCM94352Z                         |
 | Camera             | HD Webcam                                  |
-| Fingerprint Reader | No                                         |
 | Soundcard          | Realtek ALC236                             |
-| Keyboard           | Backlit Keyboard                           |
-| Trackpad           | Dell Touchpad                              |
+| Trackpad           | Dell I2C Touchpad                          |
 
 
 </details>
