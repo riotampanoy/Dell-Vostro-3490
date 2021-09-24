@@ -4,7 +4,8 @@
 <details>  
 <summary><strong>Booter</strong></summary>
 </br>
-OpenCore 0.7.1
+OpenCore 0.7.3</br>
+For Big Sur change MinDate and MinVersion to 0 with OpenCore Configurator 2.50.0.0
 </details>
 
 <details>  
