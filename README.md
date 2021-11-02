@@ -52,7 +52,6 @@ OpenCore 0.7.5</br>
 <div style="align: center">
 <img src="https://user-images.githubusercontent.com/12820160/131329505-961330b2-3bd5-4e5c-94fa-fd019f874664.jpg">
 </div>
-
 <div style="align: center">
 <img src="https://user-images.githubusercontent.com/12820160/131329570-b80f68ca-7685-468c-a1f1-1d74e0d2ad08.jpg">
 </div>
