@@ -35,7 +35,7 @@ OpenCore 0.7.5</br>
 - [x] All USB ports 
 - [x] Internal camera
 - [x] WiFi using [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
-- [x] Bluetooth using [BrcmFirmareData and BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM)
+- [x] Bluetooth using [BlueToolFixup,BrcmFirmareData and BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM)
 - [x] Shutdown/ Reboot/ Sleep/ Wake (include Fn + insert and LID device to sleep)
 - [x] Speakers and headphones jack
 - [x] Realtek Gigabit Ethernet
