@@ -4,7 +4,7 @@
 <details>  
 <summary><strong>Booter</strong></summary>
 </br>
-OpenCore 0.7.5</br>
+OpenCore 0.7.6</br>
 </details>
 
 <details>  
@@ -36,7 +36,7 @@ OpenCore 0.7.5</br>
 - [x] Internal camera
 - [x] WiFi using [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
 - [x] Bluetooth using [BlueToolFixup,BrcmFirmareData and BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM)
-- [x] Shutdown/ Reboot/ Sleep/ Wake (include Fn + insert and LID device to sleep)
+- [x] Shutdown/ Reboot/ Sleep/ Wake 
 - [x] Speakers and headphones jack
 - [x] Realtek Gigabit Ethernet
 - [x] App Store
