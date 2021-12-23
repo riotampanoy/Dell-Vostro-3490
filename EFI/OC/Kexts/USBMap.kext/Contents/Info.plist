@@ -87,27 +87,27 @@
 						AwAAAA==
 						</data>
 					</dict>
-					<key>HS06</key>
+					<key>HS04</key>
 					<dict>
 						<key>Comment</key>
 						<string>High Speed USB 2.0 Integrated WebCam</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
-						<string>HS06</string>
+						<string>HS04</string>
 						<key>port</key>
 						<data>
 						BgAAAA==
 						</data>
 					</dict>
-					<key>HS08</key>
+					<key>HS05</key>
 					<dict>
 						<key>Comment</key>
 						<string>High Speed USB 2.0 Internal Bluetooth</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
-						<string>HS08</string>
+						<string>HS05</string>
 						<key>port</key>
 						<data>
 						CgAAAA==
