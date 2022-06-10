@@ -20,7 +20,7 @@ OpenCore 0.8.2</br>
 | Display            | 14" WXGA HD LCD                            |
 | Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
 |                    | MidasForce SSD SATA 250GB (Windows)        |
-| WLAN + Bluetooth   | Broadcom BCM94360CS2                       |
+| WLAN + Bluetooth   | Broadcom BCM94360CS2 (Replaced)            |
 | Camera             | HD Webcam                                  |
 | Soundcard          | Realtek ALC236                             |
 | Trackpad           | Dell I2C Touchpad                          |
