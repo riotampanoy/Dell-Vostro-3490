@@ -34,8 +34,7 @@ OpenCore 0.8.2</br>
 - [x] Intel UHD 620 Graphics
 - [x] All USB ports 
 - [x] Internal camera
-- [x] WiFi (Replaced to BCM94360CS2)
-- [x] Bluetooth using [BlueToolFixup,BrcmFirmareData and BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM)
+- [x] WiFi+Bluetooth (Replaced to BCM94360CS2)
 - [x] Shutdown/ Reboot/ Sleep/ Wake 
 - [x] Speakers and headphones jack
 - [x] Realtek Gigabit Ethernet
