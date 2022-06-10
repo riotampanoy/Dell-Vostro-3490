@@ -4,7 +4,7 @@
 <details>  
 <summary><strong>Booter</strong></summary>
 </br>
-OpenCore 0.7.6</br>
+OpenCore 0.8.2</br>
 </details>
 
 <details>  
@@ -20,7 +20,7 @@ OpenCore 0.7.6</br>
 | Display            | 14" WXGA HD LCD                            |
 | Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
 |                    | MidasForce SSD SATA 250GB (Windows)        |
-| WLAN + Bluetooth   | Broadcom BCM94352Z                         |
+| WLAN + Bluetooth   | Broadcom BCM94360CS2                       |
 | Camera             | HD Webcam                                  |
 | Soundcard          | Realtek ALC236                             |
 | Trackpad           | Dell I2C Touchpad                          |
@@ -34,7 +34,7 @@ OpenCore 0.7.6</br>
 - [x] Intel UHD 620 Graphics
 - [x] All USB ports 
 - [x] Internal camera
-- [x] WiFi using [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
+- [x] WiFi (Replaced to BCM94360CS2)
 - [x] Bluetooth using [BlueToolFixup,BrcmFirmareData and BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM)
 - [x] Shutdown/ Reboot/ Sleep/ Wake 
 - [x] Speakers and headphones jack
@@ -65,9 +65,12 @@ OpenCore 0.7.6</br>
 <img src="https://user-images.githubusercontent.com/12820160/131329590-91aef3f9-134a-4482-a995-69a9b5c2e758.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329592-ff734cb4-ad93-46d2-97cd-66566efffb06.png">
+<img src="https://user-images.githubusercontent.com/12820160/173089145-93ab738e-152d-4737-a24a-ef4e1f235af5.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329594-bdc24f92-e9d4-498a-b8b2-006ef676fffe.png">
+<img src="https://user-images.githubusercontent.com/12820160/173089333-0bd77391-7404-48ef-825c-180b55eea9a2.png">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/173089422-d7d87fb5-930a-4224-961d-088ad4b0bc9d.png">
 </div>
 
