@@ -39,7 +39,7 @@ OpenCore 0.8.2</br>
 - [x] Speakers and headphones jack
 - [x] Realtek Gigabit Ethernet
 - [x] App Store
-- [x] (unsure, associated with your apple account) iMessage and Facetime 
+- [x] iMessage and Facetime 
 - [x] HDMI Output + Audio
 - [x] Keyboard and Trackpad (multi gesture trackpad)
 - [x] Airdrop , Handoff , Sidecar 
