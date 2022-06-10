@@ -308,9 +308,9 @@
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 			<key>ProcessBluetoothMouseStopsTrackpad</key>
-			<true/>
+			<false/>
 			<key>ProcessUSBMouseStopsTrackpad</key>
-			<true/>
+			<false/>
 			<key>QuietTimeAfterTyping</key>
 			<integer>100</integer>
 			<key>RM,deliverNotifications</key>
