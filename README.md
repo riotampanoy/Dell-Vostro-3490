@@ -40,7 +40,7 @@ OpenCore 0.8.2</br>
 - [x] Realtek Gigabit Ethernet
 - [x] App Store
 - [x] (unsure, associated with your apple account) iMessage and Facetime 
-- [x] HDMI with digital audio passthrough(If you experience cursor lags, try turning on and off one of the displays.)
+- [x] HDMI Output + Audio
 - [x] Keyboard and Trackpad (multi gesture trackpad)
 - [x] Airdrop , Handoff , Sidecar 
 
