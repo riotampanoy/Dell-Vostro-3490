@@ -103,6 +103,17 @@
 					<key>HS05</key>
 					<dict>
 						<key>Comment</key>
+						<string>High Speed 2.0 USB-CRW </string>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>HS06</key>
+					<dict>
+						<key>Comment</key>
 						<string>High Speed USB 2.0 Internal Bluetooth</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
