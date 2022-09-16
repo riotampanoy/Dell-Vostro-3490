@@ -1,4 +1,4 @@
-<strong>DELL VOSTRO 3490</strong>
+<strong>DELL VOSTRO 3490 Hackintosh OpenCore EFI</strong>
 
 
 <details>  
