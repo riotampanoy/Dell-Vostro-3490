@@ -4,7 +4,8 @@
 <details>  
 <summary><strong>Booter</strong></summary>
 </br>
-OpenCore 0.8.2</br>
+OpenCore 0.8.5</br>
+Support Catalina to Ventura Latest Beta</br>
 </details>
 
 <details>  
@@ -32,8 +33,8 @@ OpenCore 0.8.2</br>
 </br>
 
 - [x] Intel UHD 620 Graphics
-- [x] All USB ports 
-- [x] Internal camera
+- [x] All USB ports (Included USB-CRW)
+- [x] Internal Camera
 - [x] WiFi+Bluetooth (Replaced to BCM94360CS2)
 - [x] Shutdown/ Reboot/ Sleep/ Wake 
 - [x] Speakers and headphones jack
