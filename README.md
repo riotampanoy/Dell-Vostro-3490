@@ -50,27 +50,38 @@ Support Catalina to Ventura Latest Beta</br>
 
 
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329505-961330b2-3bd5-4e5c-94fa-fd019f874664.jpg">
+<img src="https://user-images.githubusercontent.com/12820160/190533887-598e8359-4f4f-479d-93a5-1e34d8846a6d.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329570-b80f68ca-7685-468c-a1f1-1d74e0d2ad08.jpg">
+<img src="https://user-images.githubusercontent.com/12820160/190533977-4f03cb3b-40fc-472c-bad1-0b22641adf1e.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329583-422d501c-771f-44d8-a45d-7623df5e5cc7.png">
+<img src="https://user-images.githubusercontent.com/12820160/190534069-dc119ef5-72ae-4f74-95b2-81b6a8945a6b.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329586-2297cd25-8e1a-44d8-91b4-6ace54459995.png">
+<img src="https://user-images.githubusercontent.com/12820160/190534123-6ea2a7a3-3e42-429c-852a-a80794281580.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/131329590-91aef3f9-134a-4482-a995-69a9b5c2e758.png">
+<img src="https://user-images.githubusercontent.com/12820160/190534174-6ed4a6c8-3f86-4e53-9d69-96ec547eafa0.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/173089145-93ab738e-152d-4737-a24a-ef4e1f235af5.png">
+<img src="https://user-images.githubusercontent.com/12820160/190534253-9c41ee06-344a-4997-ba56-6e858df0bfc6.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/173089333-0bd77391-7404-48ef-825c-180b55eea9a2.png">
+<img src="https://user-images.githubusercontent.com/12820160/190534316-ac52396f-a5fb-45f0-ad8e-c8d42baf016c.png)">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/173089422-d7d87fb5-930a-4224-961d-088ad4b0bc9d.png">
+<img src="https://user-images.githubusercontent.com/12820160/190534366-a09f7ece-6363-435b-acd2-8b45dd83711a.png)">
 </div>
-
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/190534425-edece492-bb81-4795-b926-17d4f98216c0.png)">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/190534452-301f15be-9c9f-4c14-8d5e-0604d43d28f0.png)">
+</div>
+<div style="align: center">
+<img src="https://user-images.githubusercontent.com/12820160/190534487-3afb9ea4-899e-441d-a256-cc0e015bd5b1.png)">
+</div>
+<div style="align: center">
+<img src="![Screenshot 2022-09-16 at 07 55 59](https://user-images.githubusercontent.com/12820160/190534531-03e9deed-1d9b-4577-89ae-26761b71cba2.png)">
+</div>
