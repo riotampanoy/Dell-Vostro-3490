@@ -48,7 +48,8 @@ Support Catalina to Ventura Latest Beta</br>
 </details>
 
 
-
+<details>  
+<summary><strong>ScreenShot</strong></summary>
 <div style="align: center">
 <img src="https://user-images.githubusercontent.com/12820160/190533887-598e8359-4f4f-479d-93a5-1e34d8846a6d.png">
 </div>
@@ -85,3 +86,4 @@ Support Catalina to Ventura Latest Beta</br>
 <div style="align: center">
 <img src="https://user-images.githubusercontent.com/12820160/190534531-03e9deed-1d9b-4577-89ae-26761b71cba2.png">
 </div>
+</details>  
