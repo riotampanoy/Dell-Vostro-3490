@@ -105,7 +105,7 @@
 						<key>Comment</key>
 						<string>High Speed 2.0 USB-CRW </string>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						BwAAAA==
