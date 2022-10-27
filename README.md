@@ -4,7 +4,7 @@
 <details>  
 <summary><strong>Booter</strong></summary>
 </br>
-OpenCore 0.8.5</br>
+OpenCore 0.8.6</br>
 Support Catalina to Ventura Latest Beta</br>
 </details>
 
