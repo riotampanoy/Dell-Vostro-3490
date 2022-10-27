@@ -853,7 +853,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>Disabled</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1120,9 +1120,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XVPZHJHCC</string>
+			<string>C02W5WYMJHCC</string>
 			<key>SystemUUID</key>
-			<string>39CF9359-3B1B-401A-A0E5-C2666CBA39EB</string>
+			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1131,11 +1131,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02851310GUJH4R8C</string>
+			<string>C02804609QXJH4RJA</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>mODZi7Jr</data>
+			<data>hJRRHFPM</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -1143,9 +1143,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XVPZHJHCC</string>
+			<string>C02W5WYMJHCC</string>
 			<key>SystemUUID</key>
-			<string>39CF9359-3B1B-401A-A0E5-C2666CBA39EB</string>
+			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1156,13 +1156,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02851310GUJH4R8C</string>
+			<string>C02804609QXJH4RJA</string>
 			<key>ROM</key>
-			<data>mODZi7Jr</data>
+			<data>hJRRHFPM</data>
 			<key>SystemSerialNumber</key>
-			<string>C02XVPZHJHCC</string>
+			<string>C02W5WYMJHCC</string>
 			<key>SystemUUID</key>
-			<string>39CF9359-3B1B-401A-A0E5-C2666CBA39EB</string>
+			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1181,7 +1181,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02851310GUJH4R8C</string>
+			<string>C02804609QXJH4RJA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1191,7 +1191,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XVPZHJHCC</string>
+			<string>C02W5WYMJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1215,9 +1215,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XVPZHJHCC</string>
+			<string>C02W5WYMJHCC</string>
 			<key>SystemUUID</key>
-			<string>39CF9359-3B1B-401A-A0E5-C2666CBA39EB</string>
+			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
