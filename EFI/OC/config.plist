@@ -14,6 +14,14 @@
 				<key>Path</key>
 				<string>DSDT.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-PM.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -252,7 +260,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CPUFriend</string>
 				<key>MaxKernel</key>
@@ -270,7 +278,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -324,7 +332,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/ECEnabler</string>
 				<key>MaxKernel</key>
@@ -917,7 +925,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>33518339</integer>
+			<integer>33519363</integer>
 			<key>SecureBootModel</key>
 			<string>Default</string>
 			<key>Vault</key>
@@ -1052,9 +1060,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=vit9696 amfi_get_out_of_my_way=1 brcmfx-country=US</string>
+				<string>agdpmod=vit9696 -v</string>
 				<key>csr-active-config</key>
-				<data>dwAAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -1120,22 +1128,22 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W5WYMJHCC</string>
+			<string>C02W1KYSJHCC</string>
 			<key>SystemUUID</key>
-			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
+			<string>7584C68F-AFCB-48DD-8648-692FC90A3F6E</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
-			<true/>
+			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02804609QXJH4RJA</string>
+			<string>C02753101CDJH4RJA</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
-			<data>hJRRHFPM</data>
+			<data>mODZi7Jr</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -1143,9 +1151,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W5WYMJHCC</string>
+			<string>C02W1KYSJHCC</string>
 			<key>SystemUUID</key>
-			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
+			<string>7584C68F-AFCB-48DD-8648-692FC90A3F6E</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1156,13 +1164,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02804609QXJH4RJA</string>
+			<string>C02753101CDJH4RJA</string>
 			<key>ROM</key>
-			<data>hJRRHFPM</data>
+			<data>mODZi7Jr</data>
 			<key>SystemSerialNumber</key>
-			<string>C02W5WYMJHCC</string>
+			<string>C02W1KYSJHCC</string>
 			<key>SystemUUID</key>
-			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
+			<string>7584C68F-AFCB-48DD-8648-692FC90A3F6E</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1181,7 +1189,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02804609QXJH4RJA</string>
+			<string>C02753101CDJH4RJA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1191,7 +1199,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02W5WYMJHCC</string>
+			<string>C02W1KYSJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1215,9 +1223,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W5WYMJHCC</string>
+			<string>C02W1KYSJHCC</string>
 			<key>SystemUUID</key>
-			<string>F6C40134-58DF-48D5-948E-8679AB1C53CC</string>
+			<string>7584C68F-AFCB-48DD-8648-692FC90A3F6E</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1261,6 +1269,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
