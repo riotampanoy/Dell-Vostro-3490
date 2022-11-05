@@ -4,10 +4,10 @@
 <details>  
 <summary><strong>Overview</strong></summary>
 </br>
-- DSDT from Latest Bios 1.21.0
-- Improve Backlight Smoother
-- Latest OpenCore 0.8.6
-- Support macOS Catalina - Ventura
+- DSDT from Latest Bios 1.21.0</br>
+- Improve Backlight Smoother</br>
+- Latest OpenCore 0.8.6</br>
+- Support macOS Catalina - Ventura</br>
 
 </details>
 
