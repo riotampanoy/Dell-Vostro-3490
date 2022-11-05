@@ -2,10 +2,13 @@
 
 
 <details>  
-<summary><strong>Booter</strong></summary>
+<summary><strong>Overview</strong></summary>
 </br>
-OpenCore 0.8.6</br>
-Support Catalina to Ventura Latest Beta</br>
+- DSDT from Latest Bios 1.21.0</br>
+- Improve Backlight Smoother</br>
+- Latest OpenCore 0.8.6</br>
+- Support macOS Catalina - Ventura</br>
+
 </details>
 
 <details>  
@@ -18,7 +21,7 @@ Support Catalina to Ventura Latest Beta</br>
 | Graphics           | Intel UHD Graphics 620                     |
 | Memory             | 8GB 2666MHz DDR4 Corsair Vengeance         |
 |                    | 4GB 2666MHz DDR4 Hynix                     |
-| Display            | 14" WXGA HD LCD                            |
+| Display            | 14" WXGA 1366x768 HD LCD                   |
 | Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
 |                    | MidasForce SSD SATA 250GB (Windows)        |
 | WLAN + Bluetooth   | Broadcom BCM94360CS2 (Replaced)            |
