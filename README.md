@@ -2,10 +2,13 @@
 
 
 <details>  
-<summary><strong>Booter</strong></summary>
+<summary><strong>Overview</strong></summary>
 </br>
-OpenCore 0.8.6</br>
-Support Catalina to Ventura Latest Beta</br>
+- DSDT from Latest Bios 1.21.0
+- Improve Backlight Smoother
+- Latest OpenCore 0.8.6
+- Support macOS Catalina - Ventura
+
 </details>
 
 <details>  
