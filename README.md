@@ -21,7 +21,7 @@
 | Graphics           | Intel UHD Graphics 620                     |
 | Memory             | 8GB 2666MHz DDR4 Corsair Vengeance         |
 |                    | 4GB 2666MHz DDR4 Hynix                     |
-| Display            | 14" WXGA HD LCD                            |
+| Display            | 14" WXGA 1366x768 HD LCD                   |
 | Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
 |                    | MidasForce SSD SATA 250GB (Windows)        |
 | WLAN + Bluetooth   | Broadcom BCM94360CS2 (Replaced)            |
