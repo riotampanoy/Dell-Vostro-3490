@@ -151,6 +151,8 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>#AAPL,slot-name</key>
+				<string>Internal (Make HEVC unactive on BigSur above)</string>
 				<key>AAPL,GfxYTile</key>
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
@@ -298,24 +300,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>Display-6af-2e3c.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -424,11 +408,29 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>USBPorts.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -726,24 +728,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>FeatureUnlock.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/FeatureUnlock</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -761,7 +745,28 @@
 			<string></string>
 		</dict>
 		<key>Force</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>\System\Library\Extensions\IOGraphicsFamily.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>com.apple.iokit.IOGraphicsFamily</string>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOGraphicsFamily</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -1153,9 +1158,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W11Z5JHCC</string>
+			<string>C02XD0JMJHCC</string>
 			<key>SystemUUID</key>
-			<string>E7C28AA4-363F-4F9B-98DF-5B0220C1D391</string>
+			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1164,7 +1169,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02753404CDJH4R1M</string>
+			<string>C02837207QXJH4R1M</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1176,9 +1181,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W11Z5JHCC</string>
+			<string>C02XD0JMJHCC</string>
 			<key>SystemUUID</key>
-			<string>E7C28AA4-363F-4F9B-98DF-5B0220C1D391</string>
+			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1189,20 +1194,20 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02753404CDJH4R1M</string>
+			<string>C02837207QXJH4R1M</string>
 			<key>ROM</key>
 			<data>mODZi7Jr</data>
 			<key>SystemSerialNumber</key>
-			<string>C02W11Z5JHCC</string>
+			<string>C02XD0JMJHCC</string>
 			<key>SystemUUID</key>
-			<string>E7C28AA4-363F-4F9B-98DF-5B0220C1D391</string>
+			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
 			<string>08/29/2022</string>
 			<key>BIOSVendor</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>BIOSVersion</key>
 			<string>1916.40.2.0.0</string>
 			<key>BoardAssetTag</key>
@@ -1210,11 +1215,11 @@
 			<key>BoardLocationInChassis</key>
 			<string>Part Component</string>
 			<key>BoardManufacturer</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02753404CDJH4R1M</string>
+			<string>C02837207QXJH4R1M</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1222,9 +1227,9 @@
 			<key>ChassisAssetTag</key>
 			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02W11Z5JHCC</string>
+			<string>C02XD0JMJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1242,15 +1247,15 @@
 			<key>SystemFamily</key>
 			<string>MacBook Pro</string>
 			<key>SystemManufacturer</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W11Z5JHCC</string>
+			<string>C02XD0JMJHCC</string>
 			<key>SystemUUID</key>
-			<string>E7C28AA4-363F-4F9B-98DF-5B0220C1D391</string>
+			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
