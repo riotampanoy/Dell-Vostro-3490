@@ -40,13 +40,14 @@
 - [x] Internal Camera
 - [x] WiFi+Bluetooth (Replaced to BCM94360CS2)
 - [x] Shutdown/ Reboot/ Sleep/ Wake 
-- [x] Speakers and headphones jack
-- [x] Realtek Gigabit Ethernet
+- [x] Speakers and headphones jack (Use Combojack)
+- [x] Realtek 8168 Gigabit Ethernet
 - [x] App Store
 - [x] iMessage and Facetime 
 - [x] HDMI Output + Audio
 - [x] Keyboard and Trackpad (multi gesture trackpad)
 - [x] Airdrop , Handoff , Sidecar 
+- [x] VT-D enable on bios with uncheck disableiomapper kernel quirk
 
 </details>
 
