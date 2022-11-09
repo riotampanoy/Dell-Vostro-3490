@@ -133,7 +133,7 @@
 				<key>name</key>
 				<string>Intel Serial IO I2C Host Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x1)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1D,0x1)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
@@ -144,7 +144,7 @@
 				<key>name</key>
 				<string>AirPort Extreme</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>pci-aspm-default</key>
 				<data>AgAAAA==</data>
@@ -805,7 +805,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -872,7 +872,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -890,7 +890,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -919,7 +919,7 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string></string>
+				<string>WINDOWS</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Flavour</key>
@@ -947,7 +947,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>14</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1031,7 +1031,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>OpenControl</string>
 				<key>Path</key>
@@ -1053,7 +1053,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -1090,9 +1090,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=vit9696 amfi_get_out_of_my_way=1</string>
+				<string>agdpmod=vit9696</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>dwAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -1158,9 +1158,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XD0JMJHCC</string>
+			<string>C02XK052JHCC</string>
 			<key>SystemUUID</key>
-			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
+			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1169,7 +1169,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02837207QXJH4R1M</string>
+			<string>C02842306QXJH4RA8</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1181,9 +1181,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XD0JMJHCC</string>
+			<string>C02XK052JHCC</string>
 			<key>SystemUUID</key>
-			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
+			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1194,20 +1194,20 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02837207QXJH4R1M</string>
+			<string>C02842306QXJH4RA8</string>
 			<key>ROM</key>
 			<data>mODZi7Jr</data>
 			<key>SystemSerialNumber</key>
-			<string>C02XD0JMJHCC</string>
+			<string>C02XK052JHCC</string>
 			<key>SystemUUID</key>
-			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
+			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
 			<string>08/29/2022</string>
 			<key>BIOSVendor</key>
-			<string></string>
+			<string>Apple Inc.</string>
 			<key>BIOSVersion</key>
 			<string>1916.40.2.0.0</string>
 			<key>BoardAssetTag</key>
@@ -1215,11 +1215,11 @@
 			<key>BoardLocationInChassis</key>
 			<string>Part Component</string>
 			<key>BoardManufacturer</key>
-			<string></string>
+			<string>Apple Inc.</string>
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02837207QXJH4R1M</string>
+			<string>C02842306QXJH4RA8</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1227,9 +1227,9 @@
 			<key>ChassisAssetTag</key>
 			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
-			<string></string>
+			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XD0JMJHCC</string>
+			<string>C02XK052JHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1247,15 +1247,15 @@
 			<key>SystemFamily</key>
 			<string>MacBook Pro</string>
 			<key>SystemManufacturer</key>
-			<string></string>
+			<string>Apple Inc.</string>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XD0JMJHCC</string>
+			<string>C02XK052JHCC</string>
 			<key>SystemUUID</key>
-			<string>CE7F9D70-FA1F-482B-8349-58E72F852929</string>
+			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1299,6 +1299,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
@@ -1319,7 +1325,7 @@
 			<key>AudioOutMask</key>
 			<integer>-1</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>DisconnectHda</key>
 			<false/>
 			<key>MaximumGain</key>
@@ -1398,6 +1404,18 @@
 				<false/>
 				<key>Path</key>
 				<string>ToggleSipEntry.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>Ps2MouseDxe.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1500,7 +1518,7 @@
 			<key>EnableVectorAcceleration</key>
 			<true/>
 			<key>EnableVmx</key>
-			<true/>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
