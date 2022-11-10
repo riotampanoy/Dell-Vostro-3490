@@ -1,5 +1,5 @@
 <strong>DELL VOSTRO 3490 Hackintosh OpenCore EFI</strong>
-
+My Bios currently disable CFG Lock & changes DVMT with RU.efi
 
 <details>  
 <summary><strong>Overview</strong></summary>
