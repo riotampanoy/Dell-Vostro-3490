@@ -14,14 +14,6 @@
 				<key>Path</key>
 				<string>DSDT.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PM.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -132,22 +124,6 @@
 				<string>Intel Comet Lake Series Serial IO I2C Host Controller</string>
 				<key>name</key>
 				<string>Intel Serial IO I2C Host Controller</string>
-			</dict>
-			<key>#PciRoot(0x0)/Pci(0x1D,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal</string>
-				<key>device_type</key>
-				<string>Network controller</string>
-				<key>model</key>
-				<string>BCM4360CS2 802.11ac Wireless Network Adapter</string>
-				<key>name</key>
-				<string>AirPort Extreme</string>
-			</dict>
-			<key>#PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>pci-aspm-default</key>
-				<data>AgAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -264,6 +240,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -287,24 +281,6 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>Display-6af-2e3c.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -397,42 +373,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VerbStub</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBMap.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -538,7 +478,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
@@ -696,17 +636,17 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CryptexFixup.kext</string>
+				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CryptexFixup</string>
+				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>20.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -805,7 +745,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -868,11 +808,11 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>None</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>Disabled</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -890,7 +830,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>1</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1092,7 +1032,7 @@
 				<key>boot-args</key>
 				<string>agdpmod=vit9696</string>
 				<key>csr-active-config</key>
-				<data>dwAAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -1158,9 +1098,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XK052JHCC</string>
+			<string>C02XJ04UJHCC</string>
 			<key>SystemUUID</key>
-			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
+			<string>E7012B94-D7EA-4891-87CA-20F05969403A</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1169,7 +1109,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02842306QXJH4RA8</string>
+			<string>C02841902GUJH4RJC</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1181,9 +1121,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XK052JHCC</string>
+			<string>C02XJ04UJHCC</string>
 			<key>SystemUUID</key>
-			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
+			<string>E7012B94-D7EA-4891-87CA-20F05969403A</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1194,13 +1134,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02842306QXJH4RA8</string>
+			<string>C02841902GUJH4RJC</string>
 			<key>ROM</key>
 			<data>mODZi7Jr</data>
 			<key>SystemSerialNumber</key>
-			<string>C02XK052JHCC</string>
+			<string>C02XJ04UJHCC</string>
 			<key>SystemUUID</key>
-			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
+			<string>E7012B94-D7EA-4891-87CA-20F05969403A</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1219,7 +1159,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02842306QXJH4RA8</string>
+			<string>C02841902GUJH4RJC</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1229,7 +1169,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XK052JHCC</string>
+			<string>C02XJ04UJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1253,9 +1193,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XK052JHCC</string>
+			<string>C02XJ04UJHCC</string>
 			<key>SystemUUID</key>
-			<string>102604D4-7B24-4E4C-97F0-88D00305327C</string>
+			<string>E7012B94-D7EA-4891-87CA-20F05969403A</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1404,18 +1344,6 @@
 				<false/>
 				<key>Path</key>
 				<string>ToggleSipEntry.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>Ps2MouseDxe.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
