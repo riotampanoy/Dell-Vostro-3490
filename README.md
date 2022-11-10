@@ -25,6 +25,8 @@
 | Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
 |                    | MidasForce SSD SATA 250GB (Windows)        |
 | WLAN + Bluetooth   | Broadcom BCM94360CS2 (Replaced)            |
+| LAN                | Realtek 8168 Ethernet                      |
+| Card Reader        | Realtek Card Reader                        |
 | Camera             | HD Webcam                                  |
 | Soundcard          | Realtek ALC236                             |
 | Trackpad           | Dell I2C Touchpad                          |
@@ -40,13 +42,14 @@
 - [x] Internal Camera
 - [x] WiFi+Bluetooth (Replaced to BCM94360CS2)
 - [x] Shutdown/ Reboot/ Sleep/ Wake 
-- [x] Speakers and headphones jack
-- [x] Realtek Gigabit Ethernet
+- [x] Speakers and headphones jack (Use Combojack)
+- [x] Realtek 8168 Gigabit Ethernet
 - [x] App Store
 - [x] iMessage and Facetime 
 - [x] HDMI Output + Audio
 - [x] Keyboard and Trackpad (multi gesture trackpad)
 - [x] Airdrop , Handoff , Sidecar 
+- [x] VT-D enable on bios with uncheck disableiomapper kernel quirk
 
 </details>
 
