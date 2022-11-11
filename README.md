@@ -58,39 +58,40 @@ this uploaded has setting for untouched CFG Lock & DVMT
 <details>  
 <summary><strong>ScreenShot</strong></summary>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190533887-598e8359-4f4f-479d-93a5-1e34d8846a6d.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269225-30360be5-4ca4-48a6-a31c-b79a59b5f231.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190533977-4f03cb3b-40fc-472c-bad1-0b22641adf1e.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269294-727b6716-bf1e-4937-b161-161bb0c4ada3.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534069-dc119ef5-72ae-4f74-95b2-81b6a8945a6b.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269333-ffa87486-d58a-4095-b3cf-07d590a9c70c.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534123-6ea2a7a3-3e42-429c-852a-a80794281580.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269380-5e66b737-3c22-4c59-b380-fc29eb9d1cde.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534174-6ed4a6c8-3f86-4e53-9d69-96ec547eafa0.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269405-f06e4977-5d2d-459b-bd44-3002d104316b.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534253-9c41ee06-344a-4997-ba56-6e858df0bfc6.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269445-9ebc22e8-5cdb-4435-8787-d23c8659a3cd.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534316-ac52396f-a5fb-45f0-ad8e-c8d42baf016c.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269495-155c0f07-a7d7-41cb-87a5-a3b64835da52.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534366-a09f7ece-6363-435b-acd2-8b45dd83711a.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269536-73f7eda3-270d-4e7e-abc6-89c2dfba0cb5.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534425-edece492-bb81-4795-b926-17d4f98216c0.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269574-0471a696-6955-4c2e-a8fc-fe8bd62b2dd8.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534452-301f15be-9c9f-4c14-8d5e-0604d43d28f0.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269610-aa79ccec-b040-4614-8697-f121f1f61425.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534487-3afb9ea4-899e-441d-a256-cc0e015bd5b1.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269649-d4e6798e-08ea-45a0-bd28-2ba8c33d95b4.png">
 </div>
 <div style="align: center">
-<img src="https://user-images.githubusercontent.com/12820160/190534531-03e9deed-1d9b-4577-89ae-26761b71cba2.png">
+<img src="https://user-images.githubusercontent.com/12820160/201269682-7a801643-8618-4189-ba5c-c0caf4743f55.png">
 </div>
+
 </details>  
