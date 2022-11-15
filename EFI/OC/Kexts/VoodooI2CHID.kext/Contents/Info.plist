@@ -312,7 +312,7 @@
 			<key>ProcessBluetoothMouseStopsTrackpad</key>
 			<false/>
 			<key>ProcessUSBMouseStopsTrackpad</key>
-			<true/>
+			<false/>
 			<key>QuietTimeAfterTyping</key>
 			<integer>100</integer>
 			<key>RM,deliverNotifications</key>

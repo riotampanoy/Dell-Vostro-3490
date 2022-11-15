@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>48</LogNumber>
+    <LogTimeStamp>11/14/2022 03:17:12</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Pass</Result>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <DevicesTested>Memory, Hard Drive</DevicesTested>
+      <LogData>
+        <ePSALogTimeStamp>11/14/2022 03:17:07</ePSALogTimeStamp>
+        <ePSAVersion>2.53</ePSAVersion>
+        <ErrorCode>2000:0000</ErrorCode>
+        <FailedSubTest>WCMATS_TEST</FailedSubTest>
+        <ValidationCode>91798</ValidationCode>
+        <ErrorMessage><![CDATA[ePSA quick test pass]]></ErrorMessage>
+      </LogData>
+      <MemRxHealed>FALSE</MemRxHealed>
+      <ePSAInfo><![CDATA[serviceTag=65DFP03&errCode=0000&ValCode=91798&uID=0B7B8]]></ePSAInfo>
+      <ePSAFullVersion>2.53</ePSAFullVersion>
+      <ePSAInvocationCount>1</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>OS_BOOT_FAILURE</ErrorCategory>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+      <OSBootFailCount>3</OSBootFailCount>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
