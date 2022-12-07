@@ -18,7 +18,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PM.aml</string>
 			</dict>
@@ -138,7 +138,7 @@
 				<key>pci-aspm-default</key>
 				<data>AgAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
@@ -264,11 +264,11 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -282,7 +282,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>FakeAppleWirelessMouse.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -304,7 +304,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CPUFriend</string>
 				<key>MaxKernel</key>
@@ -322,7 +322,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -534,24 +534,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext/Contents/Plugins/SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -707,24 +689,6 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>CryptexFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CryptexFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>20.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -966,7 +930,7 @@
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomSMBIOSGuid</key>
-			<true/>
+			<false/>
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -996,7 +960,7 @@
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>999</integer>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1023,11 +987,11 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>None</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>Disabled</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1045,7 +1009,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>1</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1067,26 +1031,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>WINDOWS</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>Windows 10 22H2</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0xFFFF,0x0)/HD(1,GPT,EE2A5147-CC94-40C6-A1BD-F12BB5DE52D3,0x28,0x64000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
@@ -1102,7 +1047,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>14</integer>
+			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1188,6 +1133,28 @@
 				<key>FullNvramAccess</key>
 				<false/>
 				<key>Name</key>
+				<string>modGRUBShell</string>
+				<key>Path</key>
+				<string>modGRUBShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
 				<string>OpenControl</string>
 				<key>Path</key>
 				<string>OpenControl.efi</string>
@@ -1245,9 +1212,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=vit9696</string>
+				<string>agdpmod=vit9696 -v</string>
 				<key>csr-active-config</key>
-				<data>dwAAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -1313,9 +1280,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X3FZJJHCC</string>
+			<string>C02W24YMJHCC</string>
 			<key>SystemUUID</key>
-			<string>D7A03EC6-B137-49ED-B87B-9D6480237D1F</string>
+			<string>E2EA99F0-AF40-41D3-A7E2-50D0F3253E3C</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1324,7 +1291,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02829130CDJH4RA8</string>
+			<string>C02801902GUJH4R8C</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1336,9 +1303,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X3FZJJHCC</string>
+			<string>C02W24YMJHCC</string>
 			<key>SystemUUID</key>
-			<string>D7A03EC6-B137-49ED-B87B-9D6480237D1F</string>
+			<string>E2EA99F0-AF40-41D3-A7E2-50D0F3253E3C</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1349,13 +1316,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/+f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02829130CDJH4RA8</string>
+			<string>C02801902GUJH4R8C</string>
 			<key>ROM</key>
 			<data>mODZi7Jr</data>
 			<key>SystemSerialNumber</key>
-			<string>C02X3FZJJHCC</string>
+			<string>C02W24YMJHCC</string>
 			<key>SystemUUID</key>
-			<string>D7A03EC6-B137-49ED-B87B-9D6480237D1F</string>
+			<string>E2EA99F0-AF40-41D3-A7E2-50D0F3253E3C</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1374,7 +1341,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02829130CDJH4RA8</string>
+			<string>C02801902GUJH4R8C</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1384,7 +1351,7 @@
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02X3FZJJHCC</string>
+			<string>C02W24YMJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1408,9 +1375,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X3FZJJHCC</string>
+			<string>C02W24YMJHCC</string>
 			<key>SystemUUID</key>
-			<string>D7A03EC6-B137-49ED-B87B-9D6480237D1F</string>
+			<string>E2EA99F0-AF40-41D3-A7E2-50D0F3253E3C</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1421,7 +1388,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Custom</string>
+		<string>Create</string>
 		<key>UseRawUuidEncoding</key>
 		<true/>
 	</dict>
@@ -1574,7 +1541,7 @@
 			<key>KeySwap</key>
 			<true/>
 			<key>PointerSupport</key>
-			<true/>
+			<false/>
 			<key>PointerSupportMode</key>
 			<string>DELL</string>
 			<key>TimerResolution</key>
