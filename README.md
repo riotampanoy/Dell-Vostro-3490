@@ -20,8 +20,7 @@ this uploaded has setting for untouched CFG Lock & DVMT
 |:-------------------|:-------------------------------------------|
 | Processor          | Intel Core i3-10110U                       |
 | Graphics           | Intel UHD Graphics 620                     |
-| Memory             | 8GB 2666MHz DDR4 Corsair Vengeance         |
-|                    | 4GB 2666MHz DDR4 Hynix                     |
+| Memory             | 16GB (2x8GB 2666MHz DDR4 Corsair Vengeance)|
 | Display            | 14" WXGA 1366x768 HD LCD                   |
 | Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
 |                    | MidasForce SSD SATA 250GB (Windows)        |
