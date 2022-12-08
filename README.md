@@ -1,5 +1,5 @@
 <strong>DELL VOSTRO 3490 Hackintosh OpenCore EFI</strong></br></br>
-My Bios currently disable CFG Lock & changes DVMT with modGRUBShell.efi</br>
+My Bios version 1.21.0 (disable CFG Lock & changes DVMT with modGRUBShell.efi)</br>
 DVMT Pre-Allocated : setup_var 0xF5 0xFE</br>
 DVMT Total Gfx Mem : setup_var 0xF6 0x03</br>
 Unlock CFG Lock    : setup_var 0x3E 0x00</br>
