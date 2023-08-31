@@ -3,7 +3,7 @@
 Mod Hidden Bios Setting with modGRUBShell.efi (on OpenCore picker press spacebar, choose modGRUBShell.efi and press enter/return)
 | Setting                        | Command             |
 |:-------------------------------|:--------------------|
-| DVMT Pre-Allocated 60M         | setup_var 0xF5 0xFE |
+| DVMT Pre-Allocated 64M         | setup_var 0xF5 0x2  |
 | DVMT Total Gfx Mem MAX         | setup_var 0xF6 0x03 |
 | Disable CFG Lock               | setup_var 0x3E 0x00 |
 | Disable Overclocking Lock      | setup_var 0xDA 0x00 |
