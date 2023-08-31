@@ -1,10 +1,13 @@
 <strong>DELL VOSTRO 3490 Hackintosh OpenCore EFI</strong></br></br>
-My Bios version 1.24.0</br>
-DVMT Pre-Allocated 60M     : setup_var 0xF5 0xFE</br>
-DVMT Total Gfx Mem MAX     : setup_var 0xF6 0x03</br>
-Disable CFG Lock           : setup_var 0x3E 0x00</br>
-Disable Overclocking Lock  : setup_var 0xDA 0x00</br>
-XMP Profile 1              : setup_var 0x134 0x2</br>
+
+Mod Hidden Bios Setting with modGrubShell.efi
+| Setting                        | Setup Var                   |
+|:-------------------------------|:-------------------------------------------|
+| DVMT Pre-Allocated 60M         | setup_var 0xF5 0xFE                      |
+| DVMT Total Gfx Mem MAX         | setup_var 0xF6 0x03                     |
+| Disable CFG Lock               | setup_var 0x3E 0x00 |
+| Disable Overclocking Lock      | setup_var 0xDA 0x00                   |
+| XMP Profile 1                  | setup_var 0x134 0x2 |
 
 <details>  
 <summary><strong>Overview</strong></summary>
