@@ -1,17 +1,18 @@
 <strong>DELL VOSTRO 3490 Hackintosh OpenCore EFI</strong></br></br>
-My Bios version 1.21.0</br>
-DVMT Pre-Allocated : setup_var 0xF5 0xFE</br>
-DVMT Total Gfx Mem : setup_var 0xF6 0x03</br>
-Unlock CFG Lock    : setup_var 0x3E 0x00</br>
-Unlock Overclocking Lock : setup_var 0xDA 0x00</br>
+My Bios version 1.24.0</br>
+DVMT Pre-Allocated 60M     : setup_var 0xF5 0xFE</br>
+DVMT Total Gfx Mem MAX     : setup_var 0xF6 0x03</br>
+Disable CFG Lock           : setup_var 0x3E 0x00</br>
+Disable Overclocking Lock  : setup_var 0xDA 0x00</br>
+XMP Profile 1              : setup_var 0x134 0x2</br>
 
 <details>  
 <summary><strong>Overview</strong></summary>
 </br>
-- DSDT from Latest Bios 1.21.0</br>
+- DSDT from Latest Bios 1.24.0</br>
 - Improve Backlight Smoother</br>
 - Latest OpenCore 0.8.6</br>
-- Support macOS Catalina - Ventura</br>
+- Support macOS Catalina 10.15.x - Ventura 13.x</br>
 
 </details>
 
@@ -25,8 +26,8 @@ Unlock Overclocking Lock : setup_var 0xDA 0x00</br>
 | Graphics           | Intel UHD Graphics 620                     |
 | Memory             | 16GB (2x8GB 2666MHz DDR4 Corsair Vengeance)|
 | Display            | 14" WXGA 1366x768 HD LCD                   |
-| Storage            | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
-|                    | MidasForce SSD SATA 250GB (Windows)        |
+| Storage NVME       | WD Black SN750 SSD NVMe 250GB (Hackintosh) |
+| Storage SATA       | MidasForce SSD SATA 250GB (Windows)        |
 | WLAN + Bluetooth   | Broadcom BCM94360CS2 (Replaced)            |
 | LAN                | Realtek 8168 Ethernet                      |
 | Card Reader        | Realtek Card Reader                        |
