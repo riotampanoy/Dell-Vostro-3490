@@ -1297,7 +1297,7 @@
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>CleanNvram</string>
 				<key>Path</key>
@@ -1311,11 +1311,11 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<false/>
+				<true/>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
@@ -1337,7 +1337,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
@@ -1355,7 +1355,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<false/>
+				<true/>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -1381,7 +1381,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
@@ -1390,50 +1390,6 @@
 				<string>ResetSystem</string>
 				<key>Path</key>
 				<string>ResetSystem.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>RU</string>
-				<key>Path</key>
-				<string>RU.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<true/>
-				<key>Name</key>
-				<string>Shell</string>
-				<key>Path</key>
-				<string>Shell.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
